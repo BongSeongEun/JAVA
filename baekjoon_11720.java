@@ -8,7 +8,7 @@ public class baekjoon_11720{
         char[] cNum = sNum.toCharArray();
         int sum = 0;
         for (int i = 0; i<cNum.length; i++){
-            sum += cNum[i] - '0';
+            sum += cNum[i] - '0'; //아스키코드 -> 숫자 변환
         }
         System.out.print(sum);
     }
